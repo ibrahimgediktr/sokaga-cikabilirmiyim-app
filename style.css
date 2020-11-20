@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #70a8cd;
+    background-image: linear-gradient(90deg, #70a8cd 0%, #2633b7 100%);
+    color: white;
+}
+
+a{
+    color: white;
+    
+}
+
+.copyright a {
+    font-weight: bold;
+    text-decoration: none !important;
+    transition: all .8s;
+}
+
+.copyright a:hover{
+    color: black;
+}
+
+.custom {
+    width: 90%;
+    max-width: 500px;
+}
+
+.copyright {
+    position: fixed;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.submit{
+    color: white !important;
+}
+
+.modal-content{
+    color: black;
+}
+
+.close{
+    float: right !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.modal-title{
+    float: left !important;
+}
+.modal-body{
+    display: flex ;
+}
+
+.modal-body img {
+    margin-left: 8px;
+    width: 30px;
+    height: 27px;
+}
+
+@media screen and (max-width:800px) {
+    .app-heading {
+        font-size: 18px;
+    }
+}
